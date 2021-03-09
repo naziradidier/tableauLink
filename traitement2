@@ -1,0 +1,27 @@
+<?php 
+    
+    include 'returnTableau.php';
+
+    if( isset($_GET['choix'] ) ){
+        $i = $_GET['choix'];
+
+        echo '<table>
+        
+            <tr>
+                <th>Nom</th>
+                <th>Prenom</th>
+                <th>Age</th>
+                <th>Lieu</th>
+            </tr>';
+  
+      
+          echo '<tr>';
+              echo '<td> '. $personne[$i]['nom'] .' </td>';
+              echo '<td>' . $personne[$i]['Prenom'] . '</td>';
+              echo '<td> '. $personne[$i]['age'] .' </td>';
+              echo '<td>' . $personne[$i]['lieu'] . '</td>';
+          echo '</tr>';
+
+      echo '</table>';
+   }
+?>
