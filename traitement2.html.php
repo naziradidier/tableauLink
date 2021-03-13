@@ -54,8 +54,8 @@
              echo '</table>';
  
         }
-        
-        if($i >= 0 and $i < count($personne) -1){
+//    *************************************************************************************************************     
+        if($i >= 0 and $i < count($personne)){
             // echo  "we are in the first item";
             echo '<table>
                         <tr>
