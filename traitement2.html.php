@@ -7,6 +7,12 @@
     <title>Document</title>
 </head>
 <body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <form class="form-inline" action="traitement2.html.php">
+        <input class="form-control mr-sm-2" type="text" placeholder="rechercher">
+        <button class="btn btn-success" type="submit"> cliquez</button>
+    </form>
+</nav>
 <?php 
     
     include 'returnTableau.php';
